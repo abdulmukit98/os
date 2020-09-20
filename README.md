@@ -2,12 +2,12 @@
 windows 10 education product key <br>
 YJDNW-RX2PQ-HH77B-KVM6X-YDWWB
 
-### command shortcut
-in .bashrc add line<br>
-alias gnome-open='xdg-open'<br>
-this will define xdg-open as gnome-open<br><br>
+### bash command shortcut 
+    /home/abdul/.bashrc
+    alias gnome-open='xdg-open'
+    this will define xdg-open as gnome-open<br><br>
 
-add cd Desktop, it will goto desktop at terminal start
+    add cd Desktop, it will goto desktop at terminal start
 
 ### after installation
     gnome-tweek-tool
@@ -15,3 +15,4 @@ add cd Desktop, it will goto desktop at terminal start
     audacious
     vol shortcut
     preload
+    gparted
