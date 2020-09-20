@@ -20,3 +20,4 @@ YJDNW-RX2PQ-HH77B-KVM6X-YDWWB
     octave
     krita
     filezilla
+    indicator-stickynotes
