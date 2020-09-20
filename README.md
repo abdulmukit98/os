@@ -16,3 +16,4 @@ YJDNW-RX2PQ-HH77B-KVM6X-YDWWB
     vol shortcut
     preload
     gparted
+    sublime text
