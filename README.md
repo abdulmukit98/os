@@ -17,3 +17,4 @@ YJDNW-RX2PQ-HH77B-KVM6X-YDWWB
     preload
     gparted
     sublime text
+    octave
