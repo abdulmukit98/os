@@ -18,3 +18,5 @@ YJDNW-RX2PQ-HH77B-KVM6X-YDWWB
     gparted
     sublime text
     octave
+    krita
+    
