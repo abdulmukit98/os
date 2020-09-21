@@ -28,7 +28,7 @@ YJDNW-RX2PQ-HH77B-KVM6X-YDWWB
     New-Item –Path $Profile –Type File –Force
     New-Alias abc ls
     cd e:
-    function edge {cd 'C:\Program Files (x86)\Microsoft\Edge\Application\/'
-            .\msedge.exe
+    function edge ([string]$arg1) {cd 'C:\Program Files (x86)\Microsoft\Edge\Application\/'
+            .\msedge.exe $arg1
             cd e:
             }
