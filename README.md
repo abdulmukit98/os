@@ -26,6 +26,7 @@ YJDNW-RX2PQ-HH77B-KVM6X-YDWWB
     get-alias  >  list of alias 
     create powershell profile
     New-Item –Path $Profile –Type File –Force
+    New-Alias abc ls
     cd e:
     function edge {cd 'C:\Program Files (x86)\Microsoft\Edge\Application\/'
             .\msedge.exe
