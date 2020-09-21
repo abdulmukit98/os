@@ -21,3 +21,12 @@ YJDNW-RX2PQ-HH77B-KVM6X-YDWWB
     krita
     filezilla
     indicator-stickynotes
+
+### powershell alias
+    create powershell profile
+    New-Item –Path $Profile –Type File –Force
+    cd e:
+    function edge {cd 'C:\Program Files (x86)\Microsoft\Edge\Application\/'
+            .\msedge.exe
+            cd e:
+            }
