@@ -23,6 +23,7 @@ YJDNW-RX2PQ-HH77B-KVM6X-YDWWB
     indicator-stickynotes
 
 ### powershell alias
+    get-alias  >  list of alias 
     create powershell profile
     New-Item –Path $Profile –Type File –Force
     cd e:
