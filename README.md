@@ -22,6 +22,7 @@ YJDNW-RX2PQ-HH77B-KVM6X-YDWWB
     krita
     filezilla
     indicator-stickynotes
+    bleachbit
 
 ### powershell alias
     get-alias  >  list of alias 
