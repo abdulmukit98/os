@@ -1,4 +1,4 @@
-# linux
+# os
 edu key <br>
 YJDNW-RX2PQ-HH77B-KVM6X-YDWWB
 
