@@ -5,7 +5,7 @@ YJDNW-RX2PQ-HH77B-KVM6X-YDWWB
 ### bash command shortcut 
     /home/abdul/.bashrc
     alias gnome-open='xdg-open'
-    this will define xdg-open as gnome-open<br><br>
+    this will define xdg-open as gnome-open
 
     add cd Desktop, it will goto desktop at terminal start
 
