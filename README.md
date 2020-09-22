@@ -39,4 +39,9 @@ YJDNW-RX2PQ-HH77B-KVM6X-YDWWB
 [files you can safely delete](https://thegeekpage.com/files-can-safely-delete-windows-10-save-space/#:~:text=It%20is%20completely%20safe%20delete%20the%20contents%20of,keyboard.%20A%20dialog%20box%20will%20ask%20for%20permission.)<br>
 [update file location](https://www.technig.com/delete-windows-10-update-files/#:~:text=1%20Open%20your%20File%20Explorer%20%28%20This%20PC,files%20and%20temporary%20files.%20...%20More%20items...%20)<br>
 [stop update](https://www.youtube.com/watch?v=QmtGJ5UhlME)<br>
-linux pdf viewer evince
+linux pdf viewer evince<br>
+[mp3 juices](https://www.mp3juices.cc/)<br>
+[z-library](https://b-ok.asia/?signAll=1)<br>
+[flaticon](https://www.flaticon.com/)<br>
+[png to ico](https://convertico.com/)<br>
+[os_walpaper](https://oswallpapers.com/)
