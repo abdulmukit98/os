@@ -2,8 +2,6 @@
 edu key <br>
 YJDNW-RX2PQ-HH77B-KVM6X-YDWWB 
 
-Id: PS0A6QPWOV
-
 
 ### bash command shortcut 
     /home/abdul/.bashrc
