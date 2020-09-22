@@ -9,7 +9,7 @@ YJDNW-RX2PQ-HH77B-KVM6X-YDWWB
 
     add cd Desktop, it will goto desktop at terminal start
 
-### after installation
+### after linux
     gnome-tweek-tool
     dash to dock (gnome-shell-extension)
     audacious
