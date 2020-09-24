@@ -25,6 +25,7 @@ YJDNW-RX2PQ-HH77B-KVM6X-YDWWB
     bleachbit
     tlp
     thermald
+    gimp
 
 ### powershell alias
     get-alias  >  list of alias 
