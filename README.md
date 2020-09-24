@@ -54,3 +54,6 @@ nomacs<br>
 
 ### mojave file icon
     yaru-> org.gnome.Nautilus.png
+    256*256 for list icons
+    48*48 for dock icons
+    nothing else needed
