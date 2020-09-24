@@ -49,3 +49,5 @@ z-library<br>
 flaticon<br>
 malwarebits<br>
 
+### mojave file icon
+    yaru-> org.gnome.Nautilus.png
