@@ -30,13 +30,31 @@ YJDNW-RX2PQ-HH77B-KVM6X-YDWWB
 ### powershell alias
     get-alias  >  list of alias 
     create powershell profile
-    New-Item –Path $Profile –Type File –Force
+        New-Item –Path $Profile –Type File –Force
     New-Alias abc ls
     cd e:
-    function edge ([string]$arg1) {cd 'C:\Program Files (x86)\Microsoft\Edge\Application\/'
-            .\msedge.exe $arg1
-            cd e:
-            }
+    function edge ([string]$arg1) 
+    {
+        cd 'C:\Program Files (x86)\Microsoft\Edge\Application\/'
+        .\msedge.exe $arg1
+        cd e:
+    }
+    
+### powershell if-else
+
+#with parameter
+function audacious([string]$arg1)
+{
+	if($arg1)
+	{
+		& 'C:\Program Files (x86)\Audacious\bin\audacious.exe' $arg1
+	}
+	else
+	{
+		& 'C:\Program Files (x86)\Audacious\bin\audacious.exe' 'E:\Music\'
+	}
+}
+
 
 ### after windows
 vol shortcut<br>
