@@ -42,18 +42,18 @@ YJDNW-RX2PQ-HH77B-KVM6X-YDWWB
     
 ### powershell if-else
 
-#with parameter
-function audacious([string]$arg1)
-{
-	if($arg1)
+	#with parameter
+	function audacious([string]$arg1)
 	{
-		& 'C:\Program Files (x86)\Audacious\bin\audacious.exe' $arg1
+		if($arg1)
+		{
+			& 'C:\Program Files (x86)\Audacious\bin\audacious.exe' $arg1
+		}
+		else
+		{
+			& 'C:\Program Files (x86)\Audacious\bin\audacious.exe' 'E:\Music\'
+		}
 	}
-	else
-	{
-		& 'C:\Program Files (x86)\Audacious\bin\audacious.exe' 'E:\Music\'
-	}
-}
 
 
 ### after windows
@@ -75,3 +75,7 @@ nomacs<br>
     256*256 for list icons
     48*48 for dock icons
     nothing else needed
+    
+    move custom pack to /usr/share/icons
+    not /home/.icons
+    else it show little bit mistake
