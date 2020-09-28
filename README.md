@@ -82,3 +82,4 @@ nomacs<br>
 
 
 * [ubuntu freez](https://askubuntu.com/questions/4408/what-should-i-do-when-ubuntu-freezes)
+* [tryshift uninstallation](https://support.tryshift.com/kb/article/194-how-to-uninstall-shift/)
