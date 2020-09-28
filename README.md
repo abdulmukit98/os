@@ -79,3 +79,6 @@ nomacs<br>
     move custom pack to /usr/share/icons
     not /home/.icons
     else it show little bit mistake
+
+
+* [ubuntu freez](https://askubuntu.com/questions/4408/what-should-i-do-when-ubuntu-freezes)
