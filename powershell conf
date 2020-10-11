@@ -1,0 +1,133 @@
+cd e:
+New-Alias abc ls
+
+function edge ([string]$arg1) 
+{
+	$loc = pwd
+	cd 'C:\Program Files (x86)\Microsoft\Edge\Application\/'
+	.\msedge.exe $arg1
+	cd $loc
+}
+
+function nautilus() 
+{
+	$arg = pwd
+	explorer.exe $arg 
+}
+
+function cdd{
+	cd 'e:\'
+}
+function codeblocks
+{
+	$loc = pwd
+	cd 'E:\Program Files x86\CodeBlocks'
+	.\codeblocks.exe  E:\Documents\code\first.cpp
+	cd $loc	
+}
+
+function gnome-open([string]$arg)
+{
+	& $arg
+}
+
+function filezilla
+{
+	$loc = pwd
+	cdd
+    cd 'E:\Program Files x86\FileZilla FTP Client'
+    .\filezilla.exe
+    cd $loc
+}
+
+function sublime_text ()
+{
+	& 'E:\Program Files x86\Sublime Text 3\sublime_text.exe' 
+}	
+
+New-Alias empty_trash Clear-RecycleBin
+
+function clion
+{
+	cdd
+	cd '.\Program Files x86\Jetbrains\CLion 2020.2.3\bin\'
+	.\clion64.exe
+	cdd
+}
+
+
+#with parameter
+function audacious([string]$arg1)
+{
+	if($arg1)
+	{
+		& 'C:\Program Files (x86)\Audacious\bin\audacious.exe' $arg1
+	}
+	else
+	{
+		& 'C:\Program Files (x86)\Audacious\bin\audacious.exe' 'E:\Music\'
+	}
+}
+
+
+function intellij
+{
+	cd 'E:\Program Files x86\Jetbrains\IntelliJ IDEA 2020.2.2\bin\'
+	.\idea64.exe
+	cdd
+}
+
+function pycharm
+{
+	cd 'E:\Program Files x86\Jetbrains\PyCharm 2020.2.2\bin\'
+	.\pycharm64.exe
+	cdd
+}
+
+function matlab
+{
+	$loc = pwd
+	cdd
+	cd '.\Program Files x86\matlab\bin\'
+	.\matlab.exe
+	cd $loc
+}
+
+function gimp
+{
+	$loc = pwd
+	cd 'E:\Program Files x86\GIMP 2\bin'
+	.\gimp-2.10.exe
+	cd $loc
+}
+
+function krita
+{
+	$loc = pwd
+	cd 'E:\Program Files x86\Krita (x64)\bin'
+	.\krita.exe
+	cd $loc
+}
+
+function rambox
+{
+	$loc = pwd
+	cd 'C:\Program Files\Rambox'
+	.\Rambox.exe
+	cd $loc
+}
+
+function shift
+{
+	& 'C:\Users\ACER\AppData\Local\Shift\Shift.exe'
+}
+
+function termius
+{
+	& 'C:\Users\ACER\AppData\Local\Programs\Termius\Termius.exe'
+}
+
+function recorder()
+{
+	& 'E:\Program Files x86\Camtasia 9\CamRecorder.exe'
+}
