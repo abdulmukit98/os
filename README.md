@@ -86,3 +86,10 @@ YJDNW-RX2PQ-HH77B-KVM6X-YDWWB
 * [ubuntu freez](https://askubuntu.com/questions/4408/what-should-i-do-when-ubuntu-freezes)
 * [tryshift uninstallation](https://support.tryshift.com/kb/article/194-how-to-uninstall-shift/)
 * extract-deb
+
+
+### alsamixer 
+for both headphone and speaker active <br>
+* [initialize](https://itectec.com/ubuntu/ubuntu-how-to-switch-between-headphones-and-speakers-without-unplugging-headphones/)<br>
+* [alsa property](https://wiki.ubuntu.com/Audio/Alsamixer)
+* press m for mute/unmute
