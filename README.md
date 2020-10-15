@@ -92,4 +92,4 @@ YJDNW-RX2PQ-HH77B-KVM6X-YDWWB
 for both headphone and speaker active <br>
 * [initialize](https://itectec.com/ubuntu/ubuntu-how-to-switch-between-headphones-and-speakers-without-unplugging-headphones/)<br>
 * [alsa property](https://wiki.ubuntu.com/Audio/Alsamixer)
-* * press m for mute/unmute
+* press m for mute/unmute
