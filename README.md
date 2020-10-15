@@ -82,7 +82,7 @@ YJDNW-RX2PQ-HH77B-KVM6X-YDWWB
     not /home/.icons
     else it show little bit mistake
 
-
+### exclusive task
 * [ubuntu freez](https://askubuntu.com/questions/4408/what-should-i-do-when-ubuntu-freezes)
 * [tryshift uninstallation](https://support.tryshift.com/kb/article/194-how-to-uninstall-shift/)
 * extract-deb
@@ -92,4 +92,4 @@ YJDNW-RX2PQ-HH77B-KVM6X-YDWWB
 for both headphone and speaker active <br>
 * [initialize](https://itectec.com/ubuntu/ubuntu-how-to-switch-between-headphones-and-speakers-without-unplugging-headphones/)<br>
 * [alsa property](https://wiki.ubuntu.com/Audio/Alsamixer)
-* press m for mute/unmute
+* * press m for mute/unmute
