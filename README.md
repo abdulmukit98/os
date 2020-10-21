@@ -71,6 +71,7 @@ YJDNW-RX2PQ-HH77B-KVM6X-YDWWB
 * [realtek](https://drive.google.com/drive/folders/1YFHrhBFyOHRx-qcuxdN46YYASGmXjHHz)<br>
   [process](https://youtu.be/Sy3rH0s3-Ek)<br>
 * nomacs<br>
+* Foxit <br>
 
 ### mojave file icon
     yaru-> org.gnome.Nautilus.png
