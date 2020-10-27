@@ -26,6 +26,7 @@ YJDNW-RX2PQ-HH77B-KVM6X-YDWWB
     tlp
     thermald
     gimp
+    pdftk
 
 ### powershell alias
     get-alias  >  list of alias 
