@@ -73,6 +73,7 @@ YJDNW-RX2PQ-HH77B-KVM6X-YDWWB
   [process](https://youtu.be/Sy3rH0s3-Ek)<br>
 * nomacs<br>
 * Foxit <br>
+* edge default Bing 
 
 ### mojave file icon
     yaru-> org.gnome.Nautilus.png
@@ -97,3 +98,4 @@ for both headphone and speaker active <br>
 * press m for mute/unmute
 * pulseaudio -k (kill)
 * pulseaudio --start
+
