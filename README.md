@@ -101,4 +101,4 @@ for both headphone and speaker active <br>
 
 ###  pdftk
 	pdftk   file1.pdf   file2.pdf   file3.pdf    cat output newfile.pdf
-	
+	pdftk A=first.pdf B=second.pdf cat A1-5 B1 A6-end output out.pdf
