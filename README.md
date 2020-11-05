@@ -99,3 +99,6 @@ for both headphone and speaker active <br>
 * pulseaudio -k (kill)
 * pulseaudio --start
 
+###  pdftk
+	pdftk   file1.pdf   file2.pdf   file3.pdf    cat output newfile.pdf
+	
