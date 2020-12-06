@@ -1,2 +1,8 @@
 http://ubuntuhandbook.org/index.php/2017/04/custom-screen-resolution-ubuntu-desktop/
 [link to Google!](http://google.com)
+
+
+      nano ~/.profile
+
+      sudo xrandr --newmode "1912x950_60.00"  149.75  1912 2024 2224 2536  950 953 963 986 -hsync +vsync
+      sudo xrandr --addmode Virtual1 "1912x950_60.00"
