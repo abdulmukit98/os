@@ -1,3 +1,8 @@
+/*
+	create powershell profile
+	new-item -path $profile -type file -force
+*/
+
 cd e:
 New-Alias abc ls
 
