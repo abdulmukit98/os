@@ -107,3 +107,4 @@ for both headphone and speaker active <br>
 	new-item -path $profile -type file -force
 
 * [Realtek audio control] (https://www.microsoft.com/en-us/p/app/9p2b8mcsvpln)  <br>
+* [Waves MaxAudioPro] (https://www.microsoft.com/en-us/p/waves-maxxaudio-pro-for-dell/9nb9srtl2kpt#activetab=pivot:overviewtab)
