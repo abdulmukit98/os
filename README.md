@@ -119,5 +119,8 @@ for both headphone and speaker active <br>
      powercfg /batteryreport
      run -->  Msinfo32.exe   
      cmd -->  systeminfo
-``
 
+```
+
+
+<br><br>
