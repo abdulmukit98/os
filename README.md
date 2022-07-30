@@ -112,7 +112,12 @@ for both headphone and speaker active <br>
       acer bios f2
       acer boot f12
        
-       
-    powercfg /batteryreport
-    run -->  Msinfo32.exe   
-       
+
+### Diagonosys
+```
+
+     powercfg /batteryreport
+     run -->  Msinfo32.exe   
+     cmd -->  systeminfo
+``
+
