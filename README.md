@@ -113,3 +113,6 @@ for both headphone and speaker active <br>
       acer boot f12
        
        
+       powercfg /batteryreport
+       
+       
