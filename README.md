@@ -10,23 +10,6 @@ YJDNW-RX2PQ-HH77B-KVM6X-YDWWB
 
     add cd Desktop, it will goto desktop at terminal start
 
-### after linux
-    gnome-tweek-tool
-    dash to dock (gnome-shell-extension)
-    audacious
-    vol shortcut
-    preload
-    gparted
-    sublime text
-    octave
-    krita
-    filezilla
-    indicator-stickynotes
-    bleachbit
-    tlp
-    thermald
-    gimp
-    pdftk
 
 ### powershell alias
     get-alias  >  list of alias 
@@ -85,11 +68,6 @@ YJDNW-RX2PQ-HH77B-KVM6X-YDWWB
     not /home/.icons
     else it show little bit mistake
 
-### exclusive task
-* [ubuntu freez](https://askubuntu.com/questions/4408/what-should-i-do-when-ubuntu-freezes)
-* [tryshift uninstallation](https://support.tryshift.com/kb/article/194-how-to-uninstall-shift/)
-* extract-deb
-
 
 ### alsamixer 
 for both headphone and speaker active <br>
@@ -119,7 +97,8 @@ for both headphone and speaker active <br>
      powercfg /batteryreport
      run -->  Msinfo32.exe   
      cmd -->  systeminfo
-
+     keyboard tester
+     mic-test
 ```
 
 
