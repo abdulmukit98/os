@@ -99,6 +99,10 @@ for both headphone and speaker active <br>
      cmd -->  systeminfo
      keyboard tester
      mic-test
+     device manager
+     task manager performence
+     
+     
 ```
 
 
