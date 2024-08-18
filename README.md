@@ -99,9 +99,20 @@ for both headphone and speaker active <br>
      mic-test
      device manager
      task manager performence
-     
-     
+
 ```
 
+### Remove Shortcut Arrow
+- GoTo regedit
+- search
 
+````
+Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons
+````
+- create new string entry 29
+- Add value
+````
+%windir%\System32\shell32.dll,-50
+````
+- restart windows explorer from task manager
 <br><br>
