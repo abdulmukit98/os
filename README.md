@@ -103,14 +103,14 @@ for both headphone and speaker active <br>
 ```
 
 ### Remove Shortcut Arrow
-- GoTo regedit
-- search
-
+GoTo regedit <br>
+search
 ````
 Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons
 ````
-- create new string entry 29
-- Add value
+
+create new string entry 29 <br>
+Add value 
 ````
 %windir%\System32\shell32.dll,-50
 ````
@@ -120,7 +120,8 @@ in regedit shell icon 29 string value add code
 ```
 C:\Windows\blank.ico
 ```
+[Remove_shortcut_arrow._icon](https://github.com/abdulmukit98/os/blob/master/Remove_shortcut_arrow._icon.zip)
 
-- restart windows explorer from task manager
+restart windows explorer from task manager
 <br><br>
 
