@@ -114,5 +114,13 @@ Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\S
 ````
 %windir%\System32\shell32.dll,-50
 ````
+
+#### Option 2:
+in regedit shell icon 29 string value add code 
+```
+C:\Windows\blank.ico
+```
+
 - restart windows explorer from task manager
 <br><br>
+
