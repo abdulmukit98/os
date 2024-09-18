@@ -125,3 +125,5 @@ C:\Windows\blank.ico
 restart windows explorer from task manager
 <br><br>
 
+
+## Ventoy for linux bootable medium
