@@ -68,6 +68,9 @@ YJDNW-RX2PQ-HH77B-KVM6X-YDWWB
 
 
 ### alsamixer 
+```
+alsamixer -c 0
+```
 for both headphone and speaker active <br>
 * [initialize](https://itectec.com/ubuntu/ubuntu-how-to-switch-between-headphones-and-speakers-without-unplugging-headphones/)<br>
 * [alsa property](https://wiki.ubuntu.com/Audio/Alsamixer)
