@@ -131,3 +131,11 @@ restart windows explorer from task manager
 
 
 ## Ventoy for linux bootable medium
+
+### Office uninstall
+to completely uninstall office use **microsoft service and recovery assistance**
+```
+SetupProd_OffScrub.exe
+```
+
+<br><br>
