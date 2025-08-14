@@ -1,0 +1,72 @@
+{
+    "name": "WhiteThemeLight",
+    "author": "Your Name",
+    "variables": {
+        "background": "#FFFFFF",
+        "foreground": "#333333",
+        "accent": "#0066CC",
+        "string": "#D03300",
+        "comment": "#888888"
+    },
+    "globals": {
+        "background": "var(background)",
+        "foreground": "var(foreground)",
+        "caret": "var(accent)",
+        "selection": "#D6E7FF",
+        "selection_border": "#B3D1FF",
+        "invisibles": "#E0E0E0",
+        "line_highlight": "#F5F5F5",
+        "gutter": "var(background)",
+        "gutter_foreground": "#999999"
+    },
+    "rules": [
+        {
+            "name": "Comments",
+            "scope": "comment, punctuation.definition.comment",
+            "foreground": "var(comment)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Strings",
+            "scope": "string, punctuation.definition.string",
+            "foreground": "var(string)"
+        },
+        {
+            "name": "Keywords",
+            "scope": "keyword, storage.type, storage.modifier",
+            "foreground": "var(accent)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Functions",
+            "scope": "entity.name.function, support.function",
+            "foreground": "#007020"
+        },
+        {
+            "name": "Variables/Parameters",
+            "scope": "variable, variable.parameter",
+            "foreground": "#333333"
+        },
+        {
+            "name": "Numbers",
+            "scope": "constant.numeric",
+            "foreground": "#AA5500"
+        },
+        {
+            "name": "Types/Classes",
+            "scope": "entity.name.type, support.type",
+            "foreground": "#007020",
+            "font_style": "bold"
+        },
+        {
+            "name": "Operators",
+            "scope": "keyword.operator",
+            "foreground": "#666666"
+        },
+        {
+            "name": "Preprocessor (C/C++)",
+            "scope": "meta.preprocessor",
+            "foreground": "#AA22AA"
+        }
+    ]
+}
