@@ -2,6 +2,8 @@ http://ubuntuhandbook.org/index.php/2017/04/custom-screen-resolution-ubuntu-desk
 [link to Google!](http://google.com)
       check xrandr and get the name of host
 
+      xrandr
+      cvt 1890 900
 
       nano ~/.profile
 
