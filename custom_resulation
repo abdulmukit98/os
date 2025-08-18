@@ -9,3 +9,25 @@ http://ubuntuhandbook.org/index.php/2017/04/custom-screen-resolution-ubuntu-desk
 
       sudo xrandr --newmode "1912x950_60.00"  149.75  1912 2024 2224 2536  950 953 963 986 -hsync +vsync
       sudo xrandr --addmode Virtual1 "1912x950_60.00"
+
+
+
+
+sudo nano /etc/X11/xorg.conf.d/10-monitor.conf
+paste following code
+
+Section "Monitor"
+    Identifier "Monitor0"
+    Modeline "1890x910_60.00"  143.00  1890 2008 2208 2526  910 913 923 946 -hsync +vsync
+    Option "PreferredMode" "1890x910_60.00"
+EndSection
+
+Section "Screen"
+    Identifier "Screen0"
+    Monitor "Monitor0"
+    DefaultDepth 24
+    SubSection "Display"
+        Depth 24
+        Modes "1890x910_60.00"
+    EndSubSection
+EndSection
