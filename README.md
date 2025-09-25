@@ -139,3 +139,4 @@ SetupProd_OffScrub.exe
 ```
 
 <br><br>
+partition GPT <br>
