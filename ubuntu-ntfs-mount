@@ -1,0 +1,14 @@
+sudo nano /etc/fstab
+Goto disks
+start drive and collect uuid & mountpoint
+
+
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+
+UUID=B25C9ACD5C9A8C2B /media/abdul-mukit/Faith auto defaults 0 2
+UUID=59E1D2FC2B9A84F5 /media/abdul-mukit/New\040Dawn ntfs-3g defaults,uid=1000,gid=1000,umask=0022,nofail 0 0
+UUID=52D4A818D4A7FBFB /media/abdul-mukit/New\040Volum ntfs-3g defaults,uid=1000,gid=1000,umask=0022,nofail 0 0
+
+
+sudo systemctl daemon-reload
+sudo mount -a
