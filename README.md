@@ -140,3 +140,10 @@ SetupProd_OffScrub.exe
 
 <br><br>
 partition GPT <br>
+
+<br>
+
+# Icon click to minimize
+````
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize-or-previews'
+````
