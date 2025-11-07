@@ -147,3 +147,10 @@ partition GPT <br>
 ````
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize-or-previews'
 ````
+
+# Auto start
+````
+cd ~/.config/autostart
+````
+
+
