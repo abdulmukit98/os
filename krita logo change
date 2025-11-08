@@ -1,0 +1,20 @@
+Find Krita’s Snap desktop entry:
+ls /var/lib/snapd/desktop/applications/krita*
+
+You’ll see something like:
+/var/lib/snapd/desktop/applications/krita_krita.desktop
+
+
+Open it for editing:
+sudo nano /var/lib/snapd/desktop/applications/krita_krita.desktop
+
+
+Look for the line starting with:
+Icon=/snap/krita/current/meta/gui/krita.png
+
+Then update the desktop database:
+sudo update-desktop-database
+
+
+Log out and log back in.
+
