@@ -1,1 +1,16 @@
 cd ~/.config/autostart
+
+
+[Desktop Entry]
+Type=Application
+Exec=qbittorrent
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=qBittorrent
+Comment=Start qBittorrent on login
+
+
+
+Make it executable:
+chmod +x ~/.config/autostart/qbittorrent.desktop
