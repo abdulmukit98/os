@@ -1,0 +1,13 @@
+which discord
+ls -l $(which discord)
+
+
+sudo apt remove discord
+sudo apt purge discord
+sudo apt autoremove
+
+sudo rm -rf /usr/share/discord
+sudo rm -rf /opt/Discord
+sudo rm -f /usr/bin/discord
+
+which discord
