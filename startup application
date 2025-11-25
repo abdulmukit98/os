@@ -14,3 +14,21 @@ Comment=Start qBittorrent on login
 
 Make it executable:
 chmod +x ~/.config/autostart/qbittorrent.desktop
+
+
+[Desktop Entry]
+Name=Discord
+Comment=Autostart Discord
+Exec=/usr/bin/discord --start-minimized
+Type=Application
+Terminal=false
+Categories=Network;Chat;
+X-GNOME-Autostart-enabled=true
+
+[Desktop Entry]
+Type=Application
+Name=My Autostart
+Exec=sh -c "sleep 5 && nautilus /home/abdul-mukit/Downloads/"
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
