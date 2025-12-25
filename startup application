@@ -29,7 +29,7 @@ X-GNOME-Autostart-enabled=true
 [Desktop Entry]
 Type=Application
 Name=My Autostart
-Exec=sh -c "sleep 5 && nautilus /home/abdul-mukit/Downloads/"
+Exec=sh -c "sleep 5 && nautilus '/home/abdul-mukit/Downloads/'"
 Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true
