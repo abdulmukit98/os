@@ -1,0 +1,4 @@
+copy both balena extracted file and iso file in non whitespace location.
+
+sudo chmod +x balena-etcher
+./balena-etcher --no-sandbox
