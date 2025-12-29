@@ -1,0 +1,46 @@
+1. Run this once:
+amixer -c 0
+
+2. Look for lines like:
+Simple mixer control 'Speaker',0
+Simple mixer control 'Headphone',0
+Simple mixer control 'PCM',0
+
+amixer -c 0 set Speaker 100% unmute
+
+3. Create script:
+nano ~/speaker-on-with-headphone.sh
+
+4. paste this
+#!/bin/bash
+
+# Enable speaker even when headphone is plugged
+amixer -c 0 set Speaker 100% unmute
+
+# Ensure audio path is loud enough
+amixer -c 0 set PCM 100% unmute
+amixer -c 0 set Master 100% unmute
+
+5. 
+chmod +x ~/speaker-on-with-headphone.sh
+
+6. 
+nano ~/Desktop/Speaker+Headphone.desktop
+
+7. 
+[Desktop Entry]
+Name=Enable Speaker with Headphone
+Comment=Turn on speaker while headphone is connected
+Exec=/home/abdul-mukit/speaker-on-with-headphone.sh
+Icon=audio-speakers
+Terminal=false
+Type=Application
+Categories=Audio;
+
+8.
+chmod +x ~/Desktop/Speaker+Headphone.desktop
+
+9.
+Right-click the .desktop file
+Click “Allow Launching”
+
