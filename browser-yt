@@ -1,0 +1,3 @@
+javascript:(function(){const v=document.querySelector('video');if(v){v.focus();console.log('Video focused! Use ↑/↓ for volume.');}else{alert('No video found.');}})()
+
+
