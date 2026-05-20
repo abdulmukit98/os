@@ -1,5 +1,10 @@
 sudo nano /etc/fstab
-Goto disks
+=> Goto disks
+
+If no disks app then run command to get UUID
+
+lsblk -f
+
 start drive and collect uuid & mountpoint
 
 
