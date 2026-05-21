@@ -6,6 +6,10 @@ If no disks app then run command to get UUID
 lsblk -f
 
 start drive and collect uuid & mountpoint
+=> If no mount point folder then create one
+
+sudo mkdir -p "/media/abdulmukit/Faith"
+sudo mkdir -p "/media/abdulmukit/New Dawn"
 
 
 # <file system> <mount point>   <type>  <options>       <dump>  <pass>
@@ -17,3 +21,12 @@ UUID=52D4A818D4A7FBFB /media/abdul-mukit/New\040Volum ntfs-3g defaults,uid=1000,
 
 sudo systemctl daemon-reload
 sudo mount -a
+
+It should execute without error
+finally verify
+
+mount | grep media
+
+The output should contain
+/media/abdulmukit/Faith
+/media/abdulmukit/New Dawn
