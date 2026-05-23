@@ -1,0 +1,13 @@
+Store backup setup
+
+tar -czvf qbittorrent-backup.tar.gz \
+~/.config/qBittorrent \
+~/.local/share/qBittorrent
+
+
+After reinstalling Linux:
+Install qBittorrent
+Close qBittorrent completely
+Restore folders:
+
+tar -xzvf qbittorrent-backup.tar.gz -C ~/
