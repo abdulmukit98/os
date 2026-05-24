@@ -159,3 +159,9 @@ cd ~/.config/autostart
 ````
 
 
+# Bluetooth
+````
+obexftp --nopath --noconn --uuid none --bluetooth 88:51:7A:61:4F:C2 --channel 5 -p God\ will\ make\ a\ way.3gp
+````
+
+
