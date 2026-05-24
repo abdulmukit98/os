@@ -164,4 +164,7 @@ cd ~/.config/autostart
 obexftp --nopath --noconn --uuid none --bluetooth 88:51:7A:61:4F:C2 --channel 5 -p God\ will\ make\ a\ way.3gp
 ````
 
-
+# ffmpeg
+```
+ffmpeg -i "Don Moen - God Will Make A Way ｜ Live Worship Sessions [_rSWXf2Y4z0].webm" -c:v h263 -s 176x144 -r 15 -c:a aac -b:a 64k "God will make a way.3gp"
+```
