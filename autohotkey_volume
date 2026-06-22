@@ -11,8 +11,9 @@
 ^m::Volume_Mute
 
 !1::
+RAlt & >::
 CoordMode, Mouse, Screen
 Send, {Alt up}
 Sleep, 30
-Click, 315, 114
+Click, 205, 153
 return
